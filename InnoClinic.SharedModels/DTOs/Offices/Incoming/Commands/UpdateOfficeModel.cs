@@ -1,0 +1,28 @@
+﻿using System.Runtime.Serialization;
+
+namespace InnoClinic.SharedModels.DTOs.Offices.Incoming.Commands;
+
+public class UpdateOfficeModel
+{
+    [IgnoreDataMember]
+    public Guid Id { get; set; }
+    public Guid PhotoUrl { get; set; }
+    public string City { get; set; }
+    public string Street { get; set; }
+    public string HouseNumber { get; set; }
+    public string OfficeNumber { get; set; }
+    public string RegistryPhoneNumber { get; set; }
+    public string Status { get; set; }
+
+    public UpdateOfficeModel(Guid id, Guid photoUrl, string city, string street, string houseNumber, string officeNumber, string registryPhoneNumber, string status)
+    {
+        Id = id;
+        PhotoUrl = photoUrl;
+        City = city;
+        Street = street;
+        HouseNumber = houseNumber;
+        OfficeNumber = officeNumber;
+        RegistryPhoneNumber = registryPhoneNumber;
+        Status = status;
+    }
+}
