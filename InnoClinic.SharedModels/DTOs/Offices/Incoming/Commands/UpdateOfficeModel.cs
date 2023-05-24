@@ -6,7 +6,7 @@ public class UpdateOfficeModel
 {
     [IgnoreDataMember]
     public Guid Id { get; set; }
-    public Guid PhotoUrl { get; set; }
+    public string PhotoUrl { get; set; }
     public string City { get; set; }
     public string Street { get; set; }
     public string HouseNumber { get; set; }
@@ -14,7 +14,7 @@ public class UpdateOfficeModel
     public string RegistryPhoneNumber { get; set; }
     public string Status { get; set; }
 
-    public UpdateOfficeModel(Guid id, Guid photoUrl, string city, string street, string houseNumber, string officeNumber, string registryPhoneNumber, string status)
+    public UpdateOfficeModel(Guid id, string photoUrl, string city, string street, string houseNumber, string officeNumber, string registryPhoneNumber, string status)
     {
         Id = id;
         PhotoUrl = photoUrl;
