@@ -3,8 +3,8 @@
 public class PatientAppointmentsOutgoingDto
 {
     public Guid Id { get; set; }
-    public DateTime Date { get; set; }
-    public TimeSpan Time { get; set; }
+    public DateTime DateTime { get; set; }
+    public Guid DoctorId { get; set; }
     public string DoctorFirstName { get; set; }
     public string DoctorLastName { get; set; }
     public string DoctorMiddleName { get; set; }

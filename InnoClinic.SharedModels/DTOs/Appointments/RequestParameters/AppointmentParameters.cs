@@ -8,5 +8,5 @@ public class AppointmentParameters
     public string? ServiceName { get; set; }
     public bool? IsApproved { get; set; }
     public Guid? OfficeId { get; set; }
-    public DateTime? Date { get; set; }
+    public DateTime? DateTime { get; set; }
 }

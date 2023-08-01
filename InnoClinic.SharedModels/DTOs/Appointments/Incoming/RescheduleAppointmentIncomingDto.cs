@@ -6,6 +6,5 @@ public class RescheduleAppointmentIncomingDto
     public string DoctorFirstName { get; set; }
     public string DoctorLastName { get; set; }
     public string DoctorMiddleName { get; set; }
-    public DateTime Date { get; set; }
-    public TimeSpan Time { get; set; }
+    public DateTime DateTime { get; set; }
 }
