@@ -8,16 +8,12 @@
 
   <ItemGroup>
     <Folder Include="DTOs\Appointments\Incoming\" />
-    <Folder Include="DTOs\Appointments\Outgoing\" />
     <Folder Include="DTOs\Documents\Incoming\" />
     <Folder Include="DTOs\Documents\Outgoing\" />
     <Folder Include="DTOs\Identity\Incoming\" />
-    <Folder Include="DTOs\Identity\Outgoing\" />
     <Folder Include="DTOs\Offices\Incoming\" />
     <Folder Include="DTOs\Offices\Outgoing\" />
     <Folder Include="DTOs\Profiles\Outgoing\" />
-    <Folder Include="DTOs\Services\Incoming\" />
-    <Folder Include="DTOs\Services\Outgoing\" />
   </ItemGroup>
 
 </Project>
