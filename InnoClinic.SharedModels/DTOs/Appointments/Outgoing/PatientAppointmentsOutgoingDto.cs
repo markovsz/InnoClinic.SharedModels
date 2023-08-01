@@ -9,5 +9,7 @@ public class PatientAppointmentsOutgoingDto
     public string DoctorLastName { get; set; }
     public string DoctorMiddleName { get; set; }
     public string ServiceName { get; set; }
+    public Guid ServiceId { get; set; }
     public Guid? ResultId { get; set; }
+    public bool IsApproved { get; set; }
 }
