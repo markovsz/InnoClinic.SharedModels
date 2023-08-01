@@ -14,6 +14,10 @@ public class UpdateOfficeModel
     public string RegistryPhoneNumber { get; set; }
     public string Status { get; set; }
 
+    public UpdateOfficeModel()
+    {
+    }
+
     public UpdateOfficeModel(Guid id, string photoUrl, string city, string street, string houseNumber, string officeNumber, string registryPhoneNumber, string status)
     {
         Id = id;

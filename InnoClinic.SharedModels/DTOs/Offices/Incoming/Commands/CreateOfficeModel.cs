@@ -10,6 +10,10 @@ public class CreateOfficeModel
     public string RegistryPhoneNumber { get; set; }
     public string Status { get; set; }
 
+    public CreateOfficeModel()
+    {
+    }
+
     public CreateOfficeModel(string photoUrl, string city, string street, string houseNumber, string officeNumber, string registryPhoneNumber, string status)
     {
         PhotoUrl = photoUrl;
